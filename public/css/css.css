@@ -1,0 +1,192 @@
+body{
+    margin:0px;
+    background-color: gray;
+}
+#header{
+    width: 100%;
+    background-color: cornflowerblue;
+    margin-left: 0%;
+    margin-top: -19px;
+}
+#container {
+    margin: auto;
+    width: 80%;
+}
+.logo{float:left;padding:15px 50px;}
+.nav-toggle{float:right;background-color:#ffce41;border:0;padding:0;width:10%;height:73px;}
+.icon-menu{background: url(../Image/icon-menu.png) no-repeat;width:26px;height:26px;display:inline-block;}
+.collapsed .icon-menu{background-position:0 -26px;}
+.nav-middle{position:static; top:100%; margin-top:0%; padding-left:0%; margin-left:0;}
+.nav-body {
+    background-color: rgba(255,206,65,.7);
+    top: 90px;
+    bottom: 80%;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.nav>li{font-size: 13px; width: 25%; float: left}
+#foto{width: 100%; margin-left: 0; margin-top:-10px;}
+#picture{width: 100%; height: 100%; margin-left: 0%; margin-top:0px;}
+h1{
+    margin:0px;
+    padding-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.isihome{
+       margin-top: -7px;
+}
+/*info souvernir*/
+.isiInfo{
+    border: 3px solid #428bca;
+    border-radius : 10px;
+    float:left;
+    width: 70%;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#informasi{
+    border: 1px solid black;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    height: 230px;
+    background-color: cyan;
+}
+.button{
+    padding-top:120px;
+    text-align: right;
+}
+.ContInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    height: 230px;
+    background-color: white;
+}
+#ContInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    height: 230px;
+    background-color: white;
+}
+#ContInfo1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    height: 230px;
+    background-color: white;
+}
+#ContInfo2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    height: 230px;
+    background-color: white;
+}
+.judul{
+    font-size : 25px;
+    font-style :bold;
+    margin:20px;
+}
+.judulinfo{
+    margin:5px;
+}
+.fotoinfo{
+    float:left;
+    margin-left:5px;
+    margin-bottom:5px;
+    width:185px;
+    height:185px;
+}
+.kalimat{
+    float:left;
+    margin-left: 50px;
+    text-align: justify;
+    width:55%;
+}
+#kanan{
+    float:left;
+    margin-left: 10px;
+}
+#tempatberita{
+    width:100%;
+    height:50%;   
+}
+#berita{
+    width:100%;
+    height:50%;   
+}
+#berita1{
+    margin-top:10px;
+    margin-left: 2.5%;
+    float:left;
+    width:30%;
+    height:150px;
+}
+/*tabel samping*/
+.table{
+        background: white;
+        border: 1px solid black;
+        margin-bottom: 0px;
+        width: 222px;   
+    }
+    .table th{
+        background: #222222;
+        color: yellow;
+    }
+    .table thead tr th{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .table tbody tr td{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .table tr{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+        .panel-heading {
+    padding: 5px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+    .panel-heading{
+        background: black;
+        color: skyblue;
+    }
+        .panel{
+        border: 1px black solid;
+        border-radius: 5px; 
+    }
+     
+    .custompa{
+        padding-top:60px;
+        border: 0px;
+    }
+#Map{
+	margin-bottom:20px;
+}
+#Map1{
+	margin-bottom:20px;
+}
+#Map2{
+	margin-bottom:20px;
+}
