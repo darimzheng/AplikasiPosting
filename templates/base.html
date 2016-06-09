@@ -2,74 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Souvernir</title>
+	<title>{% block title %}{% endblock %}</title>
 	<link rel="stylesheet" href="/css/css.css">
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
 	<div id="container">
-		<div id ="header">
-			<button type="button" class="nav-toggle" data-toggle="navigation">
-            	<span class="icon-menu"></span>
-            </button>
-			<h1>Informasi Menarik Souvernir Sumatera</h1>
-		</div>
-		<div class="nav-body" style="display:none;">
-        	<div class="nav-middle">
-            	<ul class="nav">
-                	<li><a href="/">HOME</a></li>
-                    <li><a href="History souvernir/Sejarah1.html">SEJARAH SOUVENIR</a></li>
-                    <li><a href="Info souvernir/info1.html">INFORMASI SOUVENIR</a></li>
-                    <li><a href="#ABOUTUS">ABOUT US</a></li>
-            	</ul>
-        	</div>
-        </div>
-		
-		<div class="isihome">
-			<div id ="image">
-				<img id="foto" src="/image/aceh/Ija Kroeng.jpg" width="500px" height="500px" alt="gambar1"/>
-			</div>
-			<div id="tempatberita">
-				<div id="berita1">
-					<img id="picture" src="/image/aceh/Ija Kroeng.jpg" alt="gambar1"/>
-				</div>
-				<div id="berita1">
-					<img id="picture" src="/image/aceh/Kupiah.jpg" alt="gambar1"/>
-				</div>
-				<div id="berita1">
-					<img id="picture" src="/image/aceh/Pinto.jpg" alt="gambar1"/>
-				</div>
-			<div id="berita">
-				<div id="berita1">
-					<img id="picture" src="/image/aceh/Piyoh.jpg" alt="gambar1"/>
-				</div>
-				<div id="berita1">
-					<img id="picture" src="/image/aceh/Rencong.jpg" alt="gambar1"/>
-				</div>
-				<div id="berita1">
-					<img id="picture" src="/image/aceh/Songket.jpg" alt="gambar1"/>
-				</div>
-			</div>
-		</div>
-		
+		{% include "header.html" %}
+		{% block content %}{% endblock %}
 	</div>
-	<script src="/script/jscript.js"></script>
-	<script src="/script/jquery-1.10.2.min.js"></script>
-	<script src="/script/bootstrap.min.js"></script>
-	<script>
-		$(function(){
-			$('[data-toggle="navigation"]').click(function(e){
-				if ($(this).hasClass('collapsed')) {
-					$(this).removeClass('collapsed');
-					$('.nav-body').slideUp();
-				} else {
-					$(this).addClass('collapsed');
-					$('.nav-body').slideDown();
-					$('.nav-body').css({ 'position': 'relative', 'left' : 0, 'top' : -10, 'padding': 0});
-				}
-				e.preventDefault();
-			});
-        });
-	</script>	
+	{% include "footer.html" %}
 </body>
 </html>

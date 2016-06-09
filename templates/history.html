@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}Informasi Souvenir{% endblock %}
+
+{% block content %}
+	<div class="isiInfo">
+		<div class="judul">
+			<p><u>Sejarah</u></p>
+		</div>
+		<div class="ContInfo">
+			<div class="judulinfo">
+				<p>Souvernir 1</p>
+			</div>
+			<img class="fotoinfo" src="../Image/Aceh/Rencong.jpg">
+			<div class="kalimat">
+				<p>Nama : {{ sejarah.nama }}</p>
+				{{ sejarah.isi }}
+			</div>
+		</div>
+			
+		<ul class="pagination pagination-sm">
+			<li class="active"><a href="/history/1">1</a></li>
+			<li><a href="/history/2">2</a></li>
+			<li><a href="/history/3">3</a></li>
+			<li><a href="/history/4">4</a></li>
+			<li><a href="/history/2">&raquo;</a></li>
+		</ul>
+	</div>
+	<div id="kanan">
+		<div class="panel custompa">
+            <div class="panel-heading">
+                <h4 class="panel-title">Souvenir Terpopuler</h4>
+				<h4 class="panel-title">versi Web</h4>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td><a href="../Info souvernir/rencong.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Rencong</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Batik Ulos</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Batu Akik</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Kecapi</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Kripik Padang</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Bika Ambon</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+		</div>
+	</div>
+{% endblock %}

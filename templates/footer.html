@@ -1,0 +1,18 @@
+<script src="/script/jscript.js"></script>
+<script src="/script/jquery-1.10.2.min.js"></script>
+<script src="/script/bootstrap.min.js"></script>
+<script>
+	$(function(){
+		$('[data-toggle="navigation"]').click(function(e){
+			if ($(this).hasClass('collapsed')) {
+				$(this).removeClass('collapsed');
+				$('.nav-body').slideUp();
+			} else {
+				$(this).addClass('collapsed');
+				$('.nav-body').slideDown();
+				$('.nav-body').css({ 'position': 'relative', 'left' : 0, 'top' : -10, 'padding': 0});
+			}
+			e.preventDefault();
+		});
+    });
+</script>
