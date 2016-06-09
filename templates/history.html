@@ -14,16 +14,18 @@
 			<img class="fotoinfo" src="../Image/Aceh/Rencong.jpg">
 			<div class="kalimat">
 				<p>Nama : {{ sejarah.nama }}</p>
-				{{ sejarah.isi }}
+				<p>{{ sejarah.isi }}</p>
+				{% if sejarah.isi2 %}<p>{{ sejarah.isi2 }}</p>{% endif %}
+				{% if sejarah.isi3 %}<p>{{ sejarah.isi3 }}</p>{% endif %}
 			</div>
 		</div>
 			
 		<ul class="pagination pagination-sm">
-			<li class="active"><a href="/history/1">1</a></li>
-			<li><a href="/history/2">2</a></li>
-			<li><a href="/history/3">3</a></li>
-			<li><a href="/history/4">4</a></li>
-			<li><a href="/history/2">&raquo;</a></li>
+			{% if id > 1 %}<li><a href="/history/{{ id - 1 }}">&laquo;</a></li>{% endif %}
+			{% for i in range(lower, upper) %}
+			    <li {% if i == id %}class="active"{% endif %}><a href="/history/{{ i }}">{{ i }}</a></li>
+			{% endfor %}
+			{% if id < 20 %}<li><a href="/history/{{ id + 1 }}">&raquo;</a></li>{% endif %}
 		</ul>
 	</div>
 	<div id="kanan">
