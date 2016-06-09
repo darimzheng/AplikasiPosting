@@ -1,11 +1,12 @@
 var express = require('express'),
 	r = express.Router(),
-	h = require('./handler'),
+	home = require('./controller/home'),
+	history = require('./controller/history'),
 	router;
 
 router = function(app){
-	r.get('/', h.home);
-	r.get('/history/:id');
+	r.get('/', home);
+	r.get('/history/:id', history);
 	r.get('/info/:id');
 	app.use(r);
 };
