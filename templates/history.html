@@ -7,18 +7,20 @@
 		<div class="judul">
 			<p><u>Sejarah</u></p>
 		</div>
-		<div class="ContInfo">
-			<div class="judulinfo">
-				<p>Souvernir 1</p>
+		{% for s in sejarah %}
+			<div class="ContInfo">
+				<div class="judulinfo">
+					<p>Souvenir {{ 3*id + loop.index - 3 }}</p>
+				</div>
+				<img class="fotoinfo" src="../Image/{{ s.foto }}">
+				<div class="kalimat">
+					<p>Nama : {{ s.nama }}</p>
+					<p>{{ s.isi }}</p>
+					{% if s.isi2 %}<p>{{ s.isi2 }}</p>{% endif %}
+					{% if s.isi3 %}<p>{{ s.isi3 }}</p>{% endif %}
+				</div>
 			</div>
-			<img class="fotoinfo" src="../Image/Aceh/Rencong.jpg">
-			<div class="kalimat">
-				<p>Nama : {{ sejarah.nama }}</p>
-				<p>{{ sejarah.isi }}</p>
-				{% if sejarah.isi2 %}<p>{{ sejarah.isi2 }}</p>{% endif %}
-				{% if sejarah.isi3 %}<p>{{ sejarah.isi3 }}</p>{% endif %}
-			</div>
-		</div>
+		{% endfor %}
 			
 		<ul class="pagination pagination-sm">
 			{% if id > 1 %}<li><a href="/history/{{ id - 1 }}">&laquo;</a></li>{% endif %}
