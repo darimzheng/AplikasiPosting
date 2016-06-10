@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Informasi Souvenir{% endblock %}
+
+{% block content %}
+	<div class="isiInfo">
+		<div class="judul">
+			<p><u>Informasi</u></p>
+		</div>
+		{% for info in infoArray %}
+			<div id="info-{{ loop.index }}" class="ContInfo">
+				<div class="judulinfo">
+					<p>Souvenir {{ 3*id + loop.index - 3 }}</p>
+				</div>
+				<img class="fotoinfo" src="../Image/{{ info.foto }}">
+				<div class="kalimat">
+					<p>Nama : {{ info.nama }}</p>
+					<p>Lokasi : {{ info.lokasi }}</p>
+					<p>
+						Harga : <br/>
+						<ul>
+						{% for harga in info.harga %}
+						    <li>{{ harga }}</li>
+						{% endfor %}
+						</ul>
+					</p>
+					<button type="button" id="map-{{ loop.index }}" class="btn btn-info map">Lokasi</button>
+				</div>
+				<script src="http://maps.googleapis.com/maps/api/js"> </script>	
+
+				<script>
+					function initialize()
+					{
+						$('#map-{{ loop.index }}').click(function(){
+							var e = document.getElementById("googleMap-{{ loop.index }}");
+							var c = document.getElementById("info-{{ loop.index }}");
+							if (e.style.display == 'block') {
+								e.style.display = 'none';
+								c.style.height= '230px';
+							} else {
+								e.style.display = 'block';
+								c.style.height= '500px';
+							}
+							var mapProp = {
+								center: new google.maps.LatLng(51.508742,-0.120850),
+								zoom:9,
+								mapTypeId: google.maps.MapTypeId.ROADMAP
+							};
+						
+							var map = new google.maps.Map(document.getElementById("googleMap-{{ loop.index }}"), mapProp);
+						});
+					}
+					google.maps.event.addDomListener(window, 'load', initialize);
+				</script>
+	
+				<div id="googleMap-{{ loop.index }}" style="margin-left:200px;width:500px;height:250px;"></div>
+			</div>
+		{% endfor %}
+			
+		<ul class="pagination pagination-sm">
+			{% if id > 1 %}<li><a href="/info/{{ id - 1 }}">&laquo;</a></li>{% endif %}
+			{% for i in range(lower, upper) %}
+			    <li {% if i == id %}class="active"{% endif %}><a href="/info/{{ i }}">{{ i }}</a></li>
+			{% endfor %}
+			{% if id < 20 %}<li><a href="/info/{{ id + 1 }}">&raquo;</a></li>{% endif %}
+		</ul>
+	</div>
+	<div id="kanan">
+		<div class="panel custompa">
+            <div class="panel-heading">
+                <h4 class="panel-title">Souvenir Terpopuler</h4>
+				<h4 class="panel-title">versi Web</h4>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td><a href="../Info souvernir/rencong.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Rencong</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Batik Ulos</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Batu Akik</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Kecapi</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Kripik Padang</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="info/test.html" style="display:block;height:100%;width:100%;color:#222222;margin-left:10px">Bika Ambon</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+		</div>
+	</div>
+{% endblock %}
