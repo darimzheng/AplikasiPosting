@@ -49,7 +49,6 @@ h1{
 }
 #informasi{
     border: 1px solid black;
-    
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -63,33 +62,6 @@ h1{
     text-align: right;
 }
 .ContInfo{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    clear: both;
-    height: 230px;
-    background-color: white;
-}
-#ContInfo{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    clear: both;
-    height: 230px;
-    background-color: white;
-}
-#ContInfo1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    clear: both;
-    height: 230px;
-    background-color: white;
-}
-#ContInfo2{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -140,53 +112,47 @@ h1{
 }
 /*tabel samping*/
 .table{
-        background: white;
-        border: 1px solid black;
-        margin-bottom: 0px;
-        width: 222px;   
-    }
-    .table th{
-        background: #222222;
-        color: yellow;
-    }
-    .table thead tr th{
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-    }
-    .table tbody tr td{
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-    }
-    .table tr{
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-    }
+    background: white;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    width: 222px;   
+}
+.table th{
+    background: #222222;
+    color: yellow;
+}
+.table thead tr th{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.table tbody tr td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.table tr{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
 
-        .panel-heading {
+.panel-heading {
     padding: 5px 15px;
     border-bottom: 1px solid transparent;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
 }
-    .panel-heading{
-        background: black;
-        color: skyblue;
-    }
-        .panel{
-        border: 1px black solid;
-        border-radius: 5px; 
-    }
+.panel-heading{
+    background: black;
+    color: skyblue;
+}
+.panel{
+    border: 1px black solid;
+    border-radius: 5px; 
+}
      
-    .custompa{
-        padding-top:60px;
-        border: 0px;
-    }
-#Map{
-	margin-bottom:20px;
+.custompa{
+    padding-top:60px;
+    border: 0px;
 }
-#Map1{
-	margin-bottom:20px;
-}
-#Map2{
+.map{
 	margin-bottom:20px;
 }
