@@ -10,7 +10,7 @@
 },{
 	nama: 'Piyoh',
 	foto: 'Aceh/Piyoh.jpg',
-	isi: 'Detail : sebuah usaha yang bergerak dalam bidang produksi merchandise yang berusaha mengangkat tema-tema local, seperti potensi wisata, budaya dan lain-lain yang terkait dengan Kota Sabang. Yang menjadi produk utama Piyoh adalah T-shirt dengan desain-desain kontemporer yang memiliki misi “berbagi Sabang dimana aja”.',
+	isi: 'Detail : Sebuah usaha yang bergerak dalam bidang produksi merchandise yang berusaha mengangkat tema-tema local, seperti potensi wisata, budaya dan lain-lain yang terkait dengan Kota Sabang. Yang menjadi produk utama Piyoh adalah T-shirt dengan desain-desain kontemporer yang memiliki misi “berbagi Sabang dimana aja”.',
 	isi2: 'Nama Piyoh Design sendiri diambil dari kata dalam bahasa Aceh, yaitu “Piyoh” yang artinya mampir atau singgah. Aku memilih bahasa Aceh sebagai Merk dagang karena selain lebih akrab didengar dan aku berkeinginan untuk memperkenalkan merk lokal ke luar. Kata Piyoh sendiri menunjukkan keramah-tamahan masyarakat Aceh terhadap siapa saja yang datang ke Aceh atau yang dikenal dengan istilah Peumulia Jamee.'
 },{
 	nama: 'Pinto',
@@ -45,7 +45,7 @@
 },{
 	nama: 'Kopi Sidikalang',
 	foto: 'Sumut/kopisidikalang.jpg',
-	isi: 'Detail :  Kopi Sidikalang cocok bagi penggemar kopi karena kandungan kafeinnya yang tinggi dan kuat. Kopi ini disebut sebagai rajanya kopi Sumatera. Hal ini tentu saja tak mengherankan karena kopi Sidikalang merupakan pesaing berat kopi Brazil yang populer itu.'
+	isi: 'Detail : Kopi Sidikalang cocok bagi penggemar kopi karena kandungan kafeinnya yang tinggi dan kuat. Kopi ini disebut sebagai rajanya kopi Sumatera. Hal ini tentu saja tak mengherankan karena kopi Sidikalang merupakan pesaing berat kopi Brazil yang populer itu.'
 },{
 	nama: 'Roti Ketawa',
 	foto: 'Sumut/rotiketawa.jpg',
@@ -97,7 +97,7 @@
 },{
 	nama: 'Baju Riau',
 	foto: 'Riau/baju riau.jpg',
-	isi: 'Detail : Dank! … nama tokonya sekilas mengingatkan pada produk tshirt produksi mantan VJ MTV dengan Damn, I Love Indonesia-nya ini sepertinya memang menyasar ke konsumen yg muda dan bergaya *macam slogan acara TV 90-an yak*. Dengan banyaknya piihan warna dan desain yg beraneka ragam, bisa bikin yg sekedar numpang nampang tadi jadi kalap *lirik 2 kaos yg tanpa pikir panjang masuk kantong belanjaan*.'
+	isi: 'Detail : Nama tokonya sekilas mengingatkan pada produk T-shirt produksi mantan VJ MTV dengan Damn, I Love Indonesia-nya ini sepertinya memang menyasar ke konsumen yg muda dan bergaya *macam slogan acara TV 90-an yak*. Dengan banyaknya piihan warna dan desain yg beraneka ragam, bisa bikin yg sekedar numpang nampang tadi jadi kalap *lirik 2 kaos yg tanpa pikir panjang masuk kantong belanjaan*.'
 },{
 	nama: 'Keripik Nenas',
 	foto: 'Riau/keripik nenas.jpg',
@@ -113,7 +113,7 @@
 },{
 	nama: 'Duku Kumpeh',
 	foto: 'Jambi/duku.jpg',
-	isi: 'Detail : buah ini disebut duku kumpeh karena berasal Kumpeh Kabupaten Muaro Jambi. Duku di daerah Jambi juga menjadi buah unggulan dan plasma nutfah yang mempunyai nilai komersial tinggi, banyak ditanam dan menjadi sumber pendapatan petani. Daerah sentra duku di Provinsi Jambi yaitu Kabupaten Muaro Jambi, Batanghari, Sarolangun, Merangin, Tebo dan Muaro Bungo. Duku Kumpeh yang terdapat di Kabupaten Muaro Jambi dan duku Muaro Panco dari Kabupaten Merangin merupakan varietas unggul nasional yang dilepas pada tahun 2000 dan 2009. Duku Kumpeh memiliki rasa manis, legit, daging buah bening, tekstur daging kenyal, tidak berserat, dan hampir tidak berbiji, sedangkan duku Muaro Pancojuga buahnya bening, berbiji kecil dan rasa manis. Rasa manis duku Kumpeh dapat bersaing dengan duku Palembang, Matesih dan Condet yang lebih dulu dikenal dan komersil.'
+	isi: 'Detail : Buah ini disebut duku kumpeh karena berasal Kumpeh Kabupaten Muaro Jambi. Duku di daerah Jambi juga menjadi buah unggulan dan plasma nutfah yang mempunyai nilai komersial tinggi, banyak ditanam dan menjadi sumber pendapatan petani. Daerah sentra duku di Provinsi Jambi yaitu Kabupaten Muaro Jambi, Batanghari, Sarolangun, Merangin, Tebo dan Muaro Bungo. Duku Kumpeh yang terdapat di Kabupaten Muaro Jambi dan duku Muaro Panco dari Kabupaten Merangin merupakan varietas unggul nasional yang dilepas pada tahun 2000 dan 2009. Duku Kumpeh memiliki rasa manis, legit, daging buah bening, tekstur daging kenyal, tidak berserat, dan hampir tidak berbiji, sedangkan duku Muaro Pancojuga buahnya bening, berbiji kecil dan rasa manis. Rasa manis duku Kumpeh dapat bersaing dengan duku Palembang, Matesih dan Condet yang lebih dulu dikenal dan komersil.'
 },{
 	nama: 'Kopi AAA',
 	foto: 'Jambi/kopi.jpg',
@@ -153,7 +153,7 @@
 },{
 	nama: 'Lempuk Durian',
 	foto: 'Bengkulu/lempuk-durian.jpg',
-	isi: 'Detail : lempuk durian atau yang lebih dikenal dengan dodol durian, hanya dapat dijumpai di daerah Bengkulu. karena memang lempuk Durian sudah menjadi makanan khas Bengkulu. dimana Lempuk Durian ini hampir sama dengan dodol-dodol lainnya yang ada di daerah lainnya. hanya bahan yang berbeda. Lempuk Durian berasal dari buah Durian yang telah masak, yang kemudia dicampur dengan tepung gandum, kemudian dimasak hingga berjam-jam lamanya. yang menjadikan Lempuk Durian mempunyai rasa yang khas adalah berasal dari buah Durian itu sendiri. jadi ketika Lempuk Durian ini dimakan, maka akan menghasilkan rasa yang sangat nikmat dan kenyal ketika dikunyah, dan sudah tentu rasa khas buah Duriannya sangat terasa ketika kita memakannya.'
+	isi: 'Detail : Lempuk durian atau yang lebih dikenal dengan dodol durian, hanya dapat dijumpai di daerah Bengkulu. karena memang lempuk Durian sudah menjadi makanan khas Bengkulu. dimana Lempuk Durian ini hampir sama dengan dodol-dodol lainnya yang ada di daerah lainnya. hanya bahan yang berbeda. Lempuk Durian berasal dari buah Durian yang telah masak, yang kemudia dicampur dengan tepung gandum, kemudian dimasak hingga berjam-jam lamanya. yang menjadikan Lempuk Durian mempunyai rasa yang khas adalah berasal dari buah Durian itu sendiri. jadi ketika Lempuk Durian ini dimakan, maka akan menghasilkan rasa yang sangat nikmat dan kenyal ketika dikunyah, dan sudah tentu rasa khas buah Duriannya sangat terasa ketika kita memakannya.'
 },{
 	nama: 'Coklat Rendang Bengkulu',
 	foto: 'Bengkulu/coklat-rendang.jpg',

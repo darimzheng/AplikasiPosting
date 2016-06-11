@@ -16,23 +16,23 @@ var daftarInfo = [{
 },{
 	nama: 'Pinto',
 	foto: 'Aceh/Pinto.jpg',
-	lokasi: 'Jl. Tgk. Glee Iniem, Desa Siem, Kec. Darussalam, Aceh Besar, Provinsi Aceh.',
-	harga: ['Sekitar Rp. 200.000 - 500.000,-']
+	lokasi: 'Jl.Al-Ikhlas Lr.IV No.2 Peulanggahan Kutaraja, Banda Aceh 23242',
+	harga: ['Rp. 15.000 - 65.000,-']
 },{
 	nama: 'Ija Kroeng',
 	foto: 'Aceh/Ija Kroeng.jpg',
-	lokasi: 'Jl. Tgk. Glee Iniem, Desa Siem, Kec. Darussalam, Aceh Besar, Provinsi Aceh.',
-	harga: ['Sekitar Rp. 200.000 - 500.000,-']
+	lokasi: 'Jln Sultan Malikulsaleh No. 56 Lhong Raya Banda Aceh',
+	harga: ['Rp. 750.000,-']
 },{
 	nama: 'Kupiah Meukeutop',
 	foto: 'Aceh/Kupiah.jpg',
-	lokasi: 'Jl. Tgk. Glee Iniem, Desa Siem, Kec. Darussalam, Aceh Besar, Provinsi Aceh.',
-	harga: ['Sekitar Rp. 200.000 - 500.000,-']
+	lokasi: 'Jl.Residen Danu Broto no.13 Geuceu Kaye Jato, Banda Aceh',
+	harga: ['Rp. 40.000 - 250.000,-']
 },{
 	nama: 'Bika Ambon',
 	foto: 'Sumut/bikaambon.jpg',
-	lokasi: 'Jl. Tgk. Glee Iniem, Desa Siem, Kec. Darussalam, Aceh Besar, Provinsi Aceh.',
-	harga: ['Sekitar Rp. 200.000 - 500.000,-']
+	lokasi: 'Jl. Mojopahit No. 62, Sumatera Utara',
+	harga: ['Ukuran Kecil : Rp. 23.000 - 28.000,-', 'Ukuran Besar : Rp. 43.000 - 50.000,-']
 },{
 	nama: 'Kacang Sihobuk',
 	foto: 'Sumut/kacangsihobuk.jpg',
@@ -166,18 +166,18 @@ var daftarInfo = [{
 },{
 	nama: 'Kaus Khas Palembang',
 	foto: 'Palembang/kaus-khas-palembang.jpg',
-	lokasi: 'Jl. Tgk. Glee Iniem, Desa Siem, Kec. Darussalam, Aceh Besar, Provinsi Aceh.',
-	harga: ['Sekitar Rp. 200.000 - 500.000,-']
+	lokasi: 'Jl. kapt arivai no.28e, Palembang',
+	harga: ['Rp. 75.000 - 150.000,-']
 },{
 	nama: 'Kue Maksuba Palembang',
 	foto: 'Palembang/kue-maksuba-palembang.jpg',
-	lokasi: 'Jl. Tgk. Glee Iniem, Desa Siem, Kec. Darussalam, Aceh Besar, Provinsi Aceh.',
-	harga: ['Sekitar Rp. 200.000 - 500.000,-']
+	lokasi: 'Jalan Merdeka Lorong Roda Rt.16 Rw.06 No.775 Palembang 30135',
+	harga: ['Kecil ukuran mini Rp. 3.000,-', 'ukuran loyang baking: Rp. 100.000,-', 'ukuran loyang 20cm X 20cm: Rp. 200.000,-']
 },{
 	nama: 'Kain Batik Bengkulu',
 	foto: 'Bengkulu/batik-bengkulu.jpg',
-	lokasi: 'Jl. Tgk. Glee Iniem, Desa Siem, Kec. Darussalam, Aceh Besar, Provinsi Aceh.',
-	harga: ['Sekitar Rp. 200.000 - 500.000,-']
+	lokasi: 'Jl. S. Parman',
+	harga: ['Sablon Baju : Rp. 180.000 - 215.000,-']
 },{
 	nama: 'Lempuk Durian',
 	foto: 'Bengkulu/lempuk-durian.jpg',
