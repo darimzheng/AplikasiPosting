@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta property="fb:app_id"        content="1781370412096385" /> 
+	<meta property="og:url"           content="http://127.0.0.1:3000" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Your Website Title" />
+	<meta property="og:description"   content="Your description" />
+	<meta property="og:image"         content="http://i2.ytimg.com/vi/1F7DKyFt5pY/default.jpg" />
 	<meta charset="UTF-8">
+	<link rel="image_src" href="http://i2.ytimg.com/vi/1F7DKyFt5pY/default.jpg"/>
 	<title>{% block title %}{% endblock %}</title>
 	<link rel="stylesheet" href="/css/css.css">
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '1781370412096385',
+				xfbml      : true,
+				version    : 'v2.5'
+			});
+		};
+		
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 	<div id="container">
 		{% include "header.html" %}
 		{% block content %}{% endblock %}
 	</div>
-	{% include "footer.html" %}
+	{% block javascript %}
+	    {% include "footer.html" %}
+	{% endblock %}
 </body>
 </html>

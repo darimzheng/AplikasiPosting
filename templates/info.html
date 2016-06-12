@@ -12,7 +12,7 @@
 				<div class="judulinfo">
 					<p>Souvenir {{ 3*id + loop.index - 3 }}</p>
 				</div>
-				<img class="fotoinfo" src="../Image/{{ info.foto }}">
+				<img class="fotoinfo" src="../image/{{ info.foto }}">
 				<div class="kalimat">
 					<p>Nama : {{ info.nama }}</p>
 					<p>Lokasi : {{ info.lokasi }}</p>
@@ -24,36 +24,8 @@
 						{% endfor %}
 						</ul>
 					</p>
-					<button type="button" id="map-{{ loop.index }}" class="btn btn-info map">Lokasi</button>
+					<div class="fb-share-button" data-href="http://127.0.0.1:3000" data-layout="button"></div>
 				</div>
-				<script src="http://maps.googleapis.com/maps/api/js"> </script>	
-
-				<script>
-					function initialize()
-					{
-						$('#map-{{ loop.index }}').click(function(){
-							var e = document.getElementById("googleMap-{{ loop.index }}");
-							var c = document.getElementById("info-{{ loop.index }}");
-							if (e.style.display == 'block') {
-								e.style.display = 'none';
-								c.style.height= '230px';
-							} else {
-								e.style.display = 'block';
-								c.style.height= '500px';
-							}
-							var mapProp = {
-								center: new google.maps.LatLng(51.508742,-0.120850),
-								zoom:9,
-								mapTypeId: google.maps.MapTypeId.ROADMAP
-							};
-						
-							var map = new google.maps.Map(document.getElementById("googleMap-{{ loop.index }}"), mapProp);
-						});
-					}
-					google.maps.event.addDomListener(window, 'load', initialize);
-				</script>
-	
-				<div id="googleMap-{{ loop.index }}" style="margin-left:200px;width:500px;height:250px;"></div>
 			</div>
 		{% endfor %}
 			
@@ -97,4 +69,24 @@
             </div>
 		</div>
 	</div>
+{% endblock %}
+
+{% block javascript %}
+    {{ super() }}
+	<script type="text/javascript">
+	    var signinWin;
+		$('.fb').click(function () {
+			var pos = screenCenterPos(800, 500);
+			signinWin = window.open("[URL]", "SignIn", "width=780,height=410,toolbar=0,scrollbars=0,status=0,resizable=0,location=0,menuBar=0,left=" + pos.x + ",top=" + pos.y);
+			setTimeout(CheckLoginStatus, 2000);
+			signinWin.focus();
+			return false;
+		});
+		function CheckLoginStatus() {
+			if (signinWin.closed) {
+				$('#UserInfo').text($.cookie("some_cookie"));
+			}
+			else setTimeout(CheckLoginStatus, 1000);
+		}
+	</script>
 {% endblock %}

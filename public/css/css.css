@@ -34,9 +34,6 @@ h1{
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.isihome{
-       margin-top: -7px;
-}
 /*info souvernir*/
 .isiInfo{
     border: 3px solid #428bca;
@@ -153,6 +150,7 @@ h1{
     padding-top:60px;
     border: 0px;
 }
-.map{
-	margin-bottom:20px;
+.facebook{
+    width: 25px;
+    height: 25px;
 }
