@@ -1,0 +1,8 @@
+{
+  "name": "aplikasi-posting",
+  "description": "Aplikasi Posting",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.2.1"
+  }
+}
