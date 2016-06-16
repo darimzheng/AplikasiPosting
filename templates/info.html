@@ -1,5 +1,14 @@
 {% extends "base.html" %}
 
+{% block meta %}
+    <meta property="fb:app_id"        content="1781370412096385" /> 
+	<meta property="og:url"           content="http://127.0.0.1:3000/" />
+	<meta property="og:type"          content="article" />
+	<meta property="og:title"         content="Your Website Title" />
+	<meta property="og:description"   content="Your description" />
+	<meta property="og:image"         content="http://127.0.0.1:3000/image/aaa.png" />
+{% endblock %}
+
 {% block title %}Informasi Souvenir{% endblock %}
 
 {% block content %}
@@ -24,7 +33,11 @@
 						{% endfor %}
 						</ul>
 					</p>
-					<div class="fb-share-button" data-href="http://127.0.0.1:3000" data-layout="button"></div>
+					<a href="#" class="fb-share" onclick="share()">Share on Facebook</a>
+					<div class="fb-share-button" data-href="http://127.0.0.1:3000/" data-layout="button" data-mobile-iframe="true">
+					    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F127.0.0.1%2F&amp;src=sdkpreparse">Bagikan</a>
+					</div>
+					<div class="fb-share-button" data-href="http://127.0.0.1:3000/" data-layout="button"></div>
 				</div>
 			</div>
 		{% endfor %}
