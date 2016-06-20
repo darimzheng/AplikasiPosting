@@ -1,5 +1,5 @@
 var a=document.getElementById("foto","picture");
-var imageAr=["Image/aceh/Ija Kroeng.jpg","Image/aceh/Kupiah.jpg","Image/aceh/Pinto.jpg","Image/aceh/Piyoh.jpg","Image/aceh/Rencong.jpg","Image/aceh/Songket.jpg","Image/aceh/Tas.jpg"];
+var imageAr=["image/Aceh/Ija Kroeng.jpg","image/Aceh/Kupiah.jpg","image/Aceh/Pinto.jpg","image/Aceh/Piyoh.jpg","image/Aceh/Rencong.jpg","image/Aceh/Songket.jpg","image/Aceh/Tas.jpg"];
 var index=0;
 var tempatberita=0;
 
