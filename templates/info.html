@@ -2,7 +2,7 @@
 
 {% block meta %}
     <meta property="fb:app_id"        content="1781370412096385" /> 
-	<meta property="og:url"           content="https://aplikasi-posting.herokuapp.com/" />
+	<meta property="og:url"           content="https://aplikasi-posting.herokuapp.com/info/{{ id }}" />
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="Souvenir" />
 	<meta property="og:description"   content="Aplikasi Posting" />
@@ -33,7 +33,7 @@
 						{% endfor %}
 						</ul>
 					</p>
-					<div class="fb-share-button" data-href="https://aplikasi-posting.herokuapp.com/" data-layout="button"></div>
+					<div class="fb-share-button" data-href="https://aplikasi-posting.herokuapp.com/info/{{ id }}" data-layout="button"></div>
 				</div>
 			</div>
 		{% endfor %}
