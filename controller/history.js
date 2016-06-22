@@ -29,7 +29,7 @@
 	isi2: 'Saat ini kupiah meukeutop telah mampu menunjukkan kekhasan Aceh pada dunia. Bentuknya yang unik dan indah, membuat kupiah meukeutop ini sering dijadikan souvenir yang menarik. Kupiah Meukutop ini hampir dapat ditemukan di tiap kabupaten dan kota di Aceh, kecuali untuk daerah-daerah tertentu yang pakaian adatnya berbeda.'
 },{
 	nama: 'Bika Ambon',
-	foto: 'Sumut/bikaambon.jpg',
+	foto: 'Sumut/BikaAmbon.jpg',
 	isi: 'Detail : Bika ambon adalah sejenis penganan asal Indonesia. Terbuat dari bahan-bahan seperti telur, gula, dan santan, bika ambon umumnya dijual dengan rasa pandan, meskipun kini juga tersedia rasa-rasa lainnya seperti durian, keju, dan cokelat.',
 	isi2: 'Asal-muasal bika ambon tidak diketahui dengan jelas. Walaupun namanya mengandung kata “ambon”, bika ambon justru dikenal sebagai oleh-oleh khas Kota Medan, Sumatera Utara. Di Medan, Jalan Mojopahit di daerah Medan Petisah merupakan kawasan penjualan bika ambon yang paling terkenal.'
 },{

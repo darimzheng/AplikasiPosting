@@ -30,7 +30,7 @@ var daftarInfo = [{
 	harga: ['Rp. 40.000 - 250.000,-']
 },{
 	nama: 'Bika Ambon',
-	foto: 'Sumut/bikaambon.jpg',
+	foto: 'Sumut/BikaAmbon.jpg',
 	lokasi: 'Jl. Mojopahit No. 62, Sumatera Utara',
 	harga: ['Ukuran Kecil : Rp. 23.000 - 28.000,-', 'Ukuran Besar : Rp. 43.000 - 50.000,-']
 },{
